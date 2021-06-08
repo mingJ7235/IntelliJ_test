@@ -9,8 +9,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class HelloController {
     @GetMapping("/hello")
     public String sayHello () {
-        return "hello SpyderKim \n" +
-                "I'm Minjae";
+
+        String msg = "hello Spyderkim ! \n" +
+                "I love you :)";
+        return msg;
 
     }
 }
